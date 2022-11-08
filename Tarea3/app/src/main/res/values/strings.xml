@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Tarea3</string>
+    <string name="modificar_usuario">MODIFICAR USUARIO</string>
+    <string name="introduzca_su_empresa">Introduzca su empresa</string>
+    <string name="introduzca_la_sucursal">Introduzca la sucursal</string>
+    <string name="introduzca_el_usuario">Introduzca el usuario</string>
+    <string name="introduzca_el_nombre">Introduzca el nombre</string>
+    <string name="introduzca_el_apellido">Introduzca el apellido</string>
+    <string name="introduzca_el_puesto">Introduzca el puesto</string>
+    <string name="introduzca_la_contrase_a">Introduzca la contraseña</string>
+    <string name="repita_la_contrase_a">Repita la contraseña</string>
+    <string name="tipo_de_busqueda">Introduzca el tipo de busqueda</string>
+    <string name="introduzca_el_punto_de_venta">Introduzca el punto de venta</string>
 </resources>
