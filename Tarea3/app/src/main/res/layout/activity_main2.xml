@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -26,14 +26,25 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/continuar"
+        android:text="@string/enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.754"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.957" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -62,7 +73,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/introduzca_su_empresa"
+                android:text="@string/introduzca_el_punto_de_venta"
                 android:textSize="24sp" />
 
             <EditText
@@ -85,7 +96,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:gravity="start"
-                android:text="@string/introduzca_la_sucursal"
+                android:text="@string/nro_suc_cob"
                 android:textSize="24sp" />
 
             <EditText
@@ -108,7 +119,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/introduzca_el_usuario"
+                android:text="@string/inhabilitado"
                 android:textSize="24sp" />
 
             <EditText
@@ -131,7 +142,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/introduzca_el_nombre"
+                android:text="@string/vendedor"
                 android:textSize="24sp" />
 
             <EditText
@@ -154,7 +165,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/introduzca_el_apellido"
+                android:text="@string/deposito"
                 android:textSize="24sp" />
 
             <EditText
@@ -177,7 +188,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/introduzca_el_puesto"
+                android:text="@string/caja_efectivo"
                 android:textSize="24sp" />
 
             <EditText
@@ -200,7 +211,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/introduzca_la_contrase_a"
+                android:text="@string/caja_cheque"
                 android:textSize="24sp" />
 
             <EditText
@@ -223,7 +234,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/repita_la_contrase_a"
+                android:text="@string/caja_tarjeta"
                 android:textSize="24sp" />
 
             <EditText
@@ -246,7 +257,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
-                android:text="@string/tipo_de_busqueda"
+                android:text="@string/habilita_reportes_localmente"
                 android:textSize="24sp" />
 
             <EditText
@@ -262,5 +273,4 @@
                 tools:ignore="LabelFor,SpeakableTextPresentCheck" />
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

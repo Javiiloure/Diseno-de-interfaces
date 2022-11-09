@@ -11,4 +11,15 @@
     <string name="repita_la_contrase_a">Repita la contraseña</string>
     <string name="tipo_de_busqueda">Introduzca el tipo de busqueda</string>
     <string name="introduzca_el_punto_de_venta">Introduzca el punto de venta</string>
+    <string name="continuar">Continuar</string>
+    <string name="nro_suc_cob">Nro Suc. Cob</string>
+    <string name="inhabilitado">Inhabilitado</string>
+    <string name="vendedor">Vendedor</string>
+    <string name="deposito">Deposito</string>
+    <string name="caja_efectivo">Caja efectivo</string>
+    <string name="caja_cheque">Caja cheque</string>
+    <string name="caja_tarjeta">Caja tarjeta</string>
+    <string name="habilita_reportes_localmente">Habilita reportes localmente</string>
+    <string name="atras">Atras</string>
+    <string name="enviar">Enviar</string>
 </resources>
