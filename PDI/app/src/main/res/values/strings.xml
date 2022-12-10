@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PDI</string>
+    <string name="hola_mundo">Hola mundo</string>
+    <string name="mi_jardin">Mi jardin</string>
+    <string name="plantas">Plantas</string>
+    <string name="foto_del_manzano">Foto del manzano</string>
+    <string name="manzano">Manzano</string>
+</resources>
