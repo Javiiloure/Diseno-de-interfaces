@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/verde_oscuro"
+    android:background="@color/verde_claro"
     tools:context=".MainActivity" >
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="550dp"
-        android:background="@color/verde_claro"
+        android:layout_height="525dp"
+        android:background="@color/white"
         android:orientation="vertical"
         android:layout_marginTop="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -222,8 +222,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="250dp"
         android:layout_marginTop="75dp"
+        android:background="#94AF78"
         android:text="@string/mi_jardin"
-        android:textColor="#1DE9B6"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.197"
@@ -238,8 +239,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="75dp"
+        android:background="#271919"
         android:text="@string/plantas"
-        android:textColor="#1DE9B6"
+        android:textColor="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
@@ -247,4 +249,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.093" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_menu" />
 </RelativeLayout>
