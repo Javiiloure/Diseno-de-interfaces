@@ -5,4 +5,10 @@
     <string name="plantas">Plantas</string>
     <string name="foto_del_manzano">Foto del manzano</string>
     <string name="manzano">Manzano</string>
+    <string name="peral">Peral</string>
+    <string name="todo">TODO</string>
+    <string name="naranjo">Naranjo</string>
+    <string name="limonero">Limonero</string>
+    <string name="aloe_vera">Aloe Vera</string>
+    <string name="lavanda">Lavanda</string>
 </resources>
