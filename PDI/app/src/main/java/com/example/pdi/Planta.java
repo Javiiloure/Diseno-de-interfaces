@@ -16,16 +16,16 @@ public class Planta extends AppCompatActivity {
         setContentView(R.layout.activity_planta);
 
         String descripcion = getIntent().getExtras().getString("descripcion");
-        String regadio = getIntent().getExtras().getString("regadio");
+        String nombre_cientifico = getIntent().getExtras().getString("nombre_cientifico");
         int foto = getIntent().getExtras().getInt("imagen");
 
         ImageView imagen = findViewById(R.id.foto_planta);
         TextView texto_descripcion = findViewById(R.id.descripcion);
-        TextView texto_regadio = findViewById(R.id.regadio);
+        TextView texto_regadio = findViewById(R.id.nombre_cientifico);
 
         imagen.setImageResource(foto);
         texto_descripcion.setText(descripcion);
-        texto_regadio.setText(regadio);
+        texto_regadio.setText(nombre_cientifico);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

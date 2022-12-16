@@ -17,6 +17,6 @@
     <string name="usuario">Usuario</string>
     <string name="rosa">Rosa</string>
     <string name="tulipan">Tulipan</string>
-    <string name="regadio">Regadio</string>
+    <string name="nombre_cientifico">Nombre Cientifico</string>
     <string name="descripcion">Descripcion</string>
 </resources>
