@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cesped"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/MyGardeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="170dp"
+        android:text="@string/mygardeen"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/input_user"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/white"
+        android:hint="@string/usuario"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/inut_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="370dp"
+        android:background="@color/white"
+        android:hint="@string/contrase_a"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/verde_oscuro"
+        android:text="@string/login" />
+</RelativeLayout>

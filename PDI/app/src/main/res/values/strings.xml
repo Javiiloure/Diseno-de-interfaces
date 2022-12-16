@@ -11,4 +11,12 @@
     <string name="limonero">Limonero</string>
     <string name="aloe_vera">Aloe Vera</string>
     <string name="lavanda">Lavanda</string>
+    <string name="mygardeen">MyGardeen</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="rosa">Rosa</string>
+    <string name="tulipan">Tulipan</string>
+    <string name="regadio">Regadio</string>
+    <string name="descripcion">Descripcion</string>
 </resources>

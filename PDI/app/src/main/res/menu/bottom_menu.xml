@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Perfil" />
-    <item android:title="Gestion" />
-    <item android:title="Buscar" />
+
+    <item android:title="Inicio"
+        android:icon="@drawable/inicio"/>
+    <item android:title="Perfil"
+        android:icon="@drawable/perfil"/>
+    <item android:title="Buscar"
+        android:icon="@drawable/buscar"/>
 </menu>
