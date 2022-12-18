@@ -23,12 +23,14 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 startActivity(new Intent(getApplicationContext(), Login.class));
+                finish();
             }
         }, 3000);
 
         portada.setOnClickListener(view -> {
             t.cancel();
             startActivity(intent);
+            finish();
         });
     }
 }

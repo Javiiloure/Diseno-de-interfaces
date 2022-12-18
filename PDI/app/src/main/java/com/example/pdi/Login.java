@@ -18,6 +18,7 @@ public class Login extends AppCompatActivity {
 
         login.setOnClickListener(view -> {
             startActivity(intent);
+            finish();
         });
     }
 }

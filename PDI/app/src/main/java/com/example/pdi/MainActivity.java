@@ -3,7 +3,11 @@ package com.example.pdi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.app.AlertDialog;
 import android.content.Intent;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 import android.os.Bundle;
 import android.view.Menu;
 
@@ -42,8 +46,17 @@ public class MainActivity extends AppCompatActivity {
            intent.putExtra("descripcion", descripcion);
            intent.putExtra("nombre_cientifico", nombre_cientifico);
            intent.putExtra("imagen", R.drawable.peral);
-
            startActivity(intent);
+        });
+
+        peral.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        peral.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                .setNegativeButton(android.R.string.no, null).show();
+            return true;
         });
 
         manzano.setOnClickListener(view -> {
@@ -60,6 +73,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        manzano.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        manzano.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
+        });
+
         naranjo.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, Planta.class);
             String descripcion = "El naranjo es un árbol de tamaño mediano, de tres a cinco metros de altura, con copa redondeada y ramas " +
@@ -71,6 +94,16 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("nombre_cientifico", nombre_cientifico);
             intent.putExtra("imagen", R.drawable.naranjo);
             startActivity(intent);
+        });
+
+        naranjo.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        naranjo.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
         });
 
         limonero.setOnClickListener(view -> {
@@ -85,6 +118,16 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("nombre_cientifico", nombre_cientifico);
             intent.putExtra("imagen", R.drawable.limonero);
             startActivity(intent);
+        });
+
+        limonero.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        limonero.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
         });
 
         lavanda.setOnClickListener(view -> {
@@ -103,6 +146,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        lavanda.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        lavanda.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
+        });
+
         aloevera.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, Planta.class);
             String descripcion = "Arbusto acaule o con tallo corto de hasta 30 cm, erecto, sin rebrotes laterales. Las hojas, que pueden medir hasta 40-50 cm" +
@@ -117,6 +170,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        aloevera.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        aloevera.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
+        });
+
         tulipan.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, Planta.class);
             String descripcion = "Son plantas herbáceas y bulbosas. Los bulbos son truncados basalmente y elongados hacia el ápice, cubiertos por una túnica usualmente" +
@@ -127,6 +190,16 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("nombre_cientifico", nombre_cientifico);
             intent.putExtra("imagen", R.drawable.tulipan);
             startActivity(intent);
+        });
+
+        tulipan.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        tulipan.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
         });
 
         rosa.setOnClickListener(view -> {
@@ -141,10 +214,31 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("imagen", R.drawable.rosa);
             startActivity(intent);
         });
+
+        rosa.setOnLongClickListener(view -> {
+            new AlertDialog.Builder(this).setTitle("Eliminar planta").setMessage("Quieres eliminar esta planta?").setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, (dialog, whichButton) -> {
+                        rosa.setVisibility(View.GONE);
+                        Toast.makeText(MainActivity.this, "Planta eliminada", Toast.LENGTH_SHORT).show();
+                    })
+                    .setNegativeButton(android.R.string.no, null).show();
+            return true;
+        });
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.logout) {
+            Intent intent = new Intent(MainActivity.this, Login.class);
+            Toast.makeText(this, "Cerrando Sesion", Toast.LENGTH_SHORT).show();
+            startActivity(intent);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
