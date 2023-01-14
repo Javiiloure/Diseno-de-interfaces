@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fotomaton</string>
+    <string name="camara">Camara</string>
+    <string name="guardar">Guardar</string>
+    <string name="todo">TODO</string>
+    <string name="introduzca_el_titulo_de_la_foto">Introduzca el titulo de la foto</string>
+    <string name="cerrar">Cerrar</string>
+</resources>
