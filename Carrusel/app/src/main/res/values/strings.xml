@@ -2,6 +2,10 @@
     <string name="app_name">Carrusel</string>
     <string name="todo">TODO</string>
     <string name="introduzca_el_nombre_de_la_imagen">Introduzca el nombre de la imagen</string>
+    <string name="lenguajes">Lenguajes</string>
+    <string name="componentes">Componentes</string>
+    <string name="perifericos">Perifericos</string>
+    <string name="cerrar">Cerrar</string>
     <string-array name="lenguajes">
         <item>java</item>
         <item>c</item>
